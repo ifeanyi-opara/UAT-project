@@ -1,0 +1,20 @@
+
+```text
+# Core Scientific Computing & Data Manipulation
+numpy>=1.22.0
+
+# Visualization & Plotting
+matplotlib>=3.5.0
+
+# JIT Compilation for High-Performance Math Acceleration (used in sync loops)
+numba>=0.56.0
+
+# Note: The 'uhd' package requires the USRP Hardware Driver installed on your host system.
+# It provides the Python bindings for communicating with Ettus USRPs.
+uhd>=4.0.0
+
+# Note: The 'ldpc' package must be accessible in your Python environment. 
+# If utilizing a specialized or local repository package containing 'ldpc.bplsd_decoder', 
+# ensure it is cloned or installed locally.
+
+```
